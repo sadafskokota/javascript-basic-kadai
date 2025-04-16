@@ -1,3 +1,4 @@
-const num1 = 68;
-const num2 = 1.7;
-console.log(num1/(num2* num2));
+let weight = 68;
+let heght = 1.7;
+let bmi=weight/(heght* heght);
+console.log(bmi);
