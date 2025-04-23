@@ -1,4 +1,4 @@
 function button(){
-  document.getElementById('text').textContent='ボタンをクリックしました';
+  const text=document.getElementById('text').textContent='ボタンをクリックしました';
 }
-document.getElementById('btn').addEventListener('click',button);
+const btn=document.getElementById('btn').addEventListener('click',button);
